@@ -27,7 +27,7 @@ class PostsController < ApplicationController
     @post = Post.new(post_params)
       if @post.save
         redirect_to @post, notice: 'Post was successfully created.'
-        format.json { render :show, status: :created, location: @post }
+        # format.json { render :show, status: :created, location: @post }
       else
          render :new
       end
