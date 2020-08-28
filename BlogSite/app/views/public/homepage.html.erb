@@ -1,0 +1,30 @@
+<%= page_title "Home" %>
+
+<div class="row">
+  <div class="col-8">
+    <p class="h4">Latest Posts</p>
+
+    <% @posts.each do |post| %>
+      <%= render partial: "posts/post", locals: {post: post}%>
+    <% end %>
+  </div>
+  <div class="col-4">
+    <p class="h4">
+      About
+    </p>
+    <%= image_tag "blog.img.jpeg", alt: "Bolg image", class: "img-fluid mt - 2 mb-3", style: "border-radius: 6px; border: 1px solid #444" %>
+    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English
+      versions from the 1914 translation by H. Rackham.</p>
+
+    <% content_for :scripts do %>
+      This will be displayed at bottom of body tag
+    <% end %>
+
+    <p class="h4">Categories</p>
+    <% @categories.each do |category| %>
+      <p><%= category.title %>
+        -
+        <%= category.total_count %></p>
+    <% end %>
+  </div>
+</div>
