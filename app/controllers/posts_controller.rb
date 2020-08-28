@@ -1,14 +1,14 @@
 class PostsController < ApplicationController
-  before_action :set_post, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_account!, except: [:show]
+  before_action :set_post, only: [:show, :edit, :update, :destroy, :save_post_view]
+  before_action :can_modify_post, only: [:edit, :update, :destroy]
 
   # GET /posts
-  # GET /posts.json
   def index
     @posts = Post.all
   end
 
   # GET /posts/1
-  # GET /posts/1.json
   def show
   end
 
@@ -22,32 +22,35 @@ class PostsController < ApplicationController
   end
 
   # POST /posts
-  # POST /posts.json
   def create
     @post = Post.new(post_params)
-      if @post.save
-        redirect_to @post, notice: 'Post was successfully created.'
-        # format.json { render :show, status: :created, location: @post }
-      else
-         render :new
-      end
+    @post.account_id = current_account.id
+
+    if @post.save
+      redirect_to @post, notice: 'Post was successfully created.'
+    else
+      render :new
+    end
   end
 
   # PATCH/PUT /posts/1
-  # PATCH/PUT /posts/1.json
   def update
-      if @post.update(post_params)
-        redirect_to @post, notice: 'Post was successfully updated.'
-      else
-        format.html { render :edit }
-      end
+    if @post.update(post_params)
+      redirect_to @post, notice: 'Post was successfully updated.'
+    else
+      render :edit
     end
+  end
 
   # DELETE /posts/1
-  # DELETE /posts/1.json
   def destroy
     @post.destroy
     redirect_to posts_url, notice: 'Post was successfully destroyed.'
+  end
+
+  def save_post_view
+    # increment view count for post
+    @post.increment(:views, 1).save
   end
 
   private
@@ -56,8 +59,12 @@ class PostsController < ApplicationController
       @post = Post.find(params[:id])
     end
 
-    # Only allow a list of trusted parameters through.
+    def can_modify_post
+      redirect_back(fallback_location: root_path) and return unless @post.account_id == current_account.id
+    end
+
+    # Never trust parameters from the scary internet, only allow the white list through.
     def post_params
-      params.require(:post).permit(:title, :summary, :body, :active, :category)
+      params.require(:post).permit(:title, :summary, :body, :active, :category_id)
     end
 end
