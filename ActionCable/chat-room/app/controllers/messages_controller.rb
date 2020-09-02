@@ -22,7 +22,6 @@ class MessagesController < ApplicationController
   end
 
   # POST /messages
-  # POST /messages.json
   def create
     @message = Message.new(message_params)
     @message.user = current_user
@@ -33,7 +32,6 @@ class MessagesController < ApplicationController
   end
 
   # PATCH/PUT /messages/1
-  # PATCH/PUT /messages/1.json
   def update
     respond_to do |format|
       if @message.update(message_params)
@@ -47,7 +45,6 @@ class MessagesController < ApplicationController
   end
 
   # DELETE /messages/1
-  # DELETE /messages/1.json
   def destroy
     @message.destroy
     respond_to do |format|

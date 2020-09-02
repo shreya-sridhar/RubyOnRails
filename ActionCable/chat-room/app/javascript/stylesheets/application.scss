@@ -1,49 +1,57 @@
-body{
+body {
   ::-webkit-scrollbar {
     display: none;
   }
   -ms-overflow-style: none;
 }
 
-.chat-room{
-
+.chat-room {
   height: 100vh;
-  #messages{
+
+  #messages {
     height: 100%;
     overflow-y: scroll;
     padding-bottom: 200px;
   }
+
   .navbar {
     border-bottom: 1px solid #eeeeee;
     margin-left: -15px;
-    width: calc(100% + 30px)
+    width: calc(100% + 30px);
   }
-  .message{
+
+  .message {
     min-height: 59px;
-    .content-container{
+
+    .content-container {
       display: inline-block;
-      .content{
+
+      .content {
         background-color: #eeeeee;
         padding: 8px 16px;
         border-radius: 20px;
       }
-      .author{
+
+      .author {
         font-size: 0.8rem;
         color: #777777;
         margin-left: 10px;
       }
     }
+
     &.me {
-      .content-container{
+      .content-container {
         float: right;
       }
+
       .content {
         background-color: #007bff;
         color: white;
       }
     }
   }
-  .chat-box{
+
+  .chat-box {
     position: absolute;
     bottom: -10px;
     padding: 20px;
@@ -51,51 +59,60 @@ body{
     margin-left: -15px;
     background-color: white;
     border-top: 1px solid #eeeeee;
-    input[type=text]{
+
+    input[type=text] {
       height: 45px;
       font-size: 18px;
       padding: 8px;
     }
+
     .btn {
       height: 45px;
     }
   }
 }
 
-.card.no-outline{
+.card.no-outline {
   border: none;
 }
 
-.room-link{
-  &:hover{
+.room-link {
+  &:hover {
     text-decoration: none;
   }
-  .room-card{
+
+  .room-card {
     transition: background-color 0.5s ease;
     border-radius: 20px;
-    &:hover{
+
+    &:hover {
       background-color: #eeeeee;
     }
+
     &.active {
       background-color: black;
-      .name{
+
+      .name {
         color: white;
       }
-      .member-count{
+
+      .member-count {
         color: #e0e0e0;
       }
     }
-    .name{
+
+    .name {
       font-weight: bold;
       color: black;
     }
-    .member-count{
+
+    .member-count {
       color: #777777;
       font-weight: light;
     }
   }
 }
 
-.rooms-sidebar{
+.rooms-sidebar {
   border-right: 1px solid #eeeeee;
 }
