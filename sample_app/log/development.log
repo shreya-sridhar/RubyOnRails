@@ -294,3 +294,2116 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 12ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 2779)
 
 
+Started GET "/" for ::1 at 2020-09-11 16:15:25 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 11.5ms | Allocations: 342)
+Completed 200 OK in 24ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 3048)
+
+
+Started GET "/" for ::1 at 2020-09-12 10:13:32 -0400
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 1.5ms | Allocations: 264)
+Completed 200 OK in 13ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 2542)
+
+
+Started GET "/" for ::1 at 2020-09-12 10:58:46 -0400
+  
+SyntaxError (/Users/kexin/Sites/ROR-Site/mySite/sample_app/config/routes.rb:3: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+    post 'create', to 'checkout#create', as: 'checko...
+                      ^
+/Users/kexin/Sites/ROR-Site/mySite/sample_app/config/routes.rb:3: syntax error, unexpected ',', expecting end
+...'create', to 'checkout#create', as: 'checkout_create'
+...                              ^
+/Users/kexin/Sites/ROR-Site/mySite/sample_app/config/routes.rb:4: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+    get 'cancel', to 'checkout#cancel', as: 'checko...
+                     ^
+/Users/kexin/Sites/ROR-Site/mySite/sample_app/config/routes.rb:4: syntax error, unexpected ',', expecting end
+...'cancel', to 'checkout#cancel', as: 'checkout_cancel'
+...                              ^
+/Users/kexin/Sites/ROR-Site/mySite/sample_app/config/routes.rb:5: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+    get 'success', to 'checkout#success', as: 'check...
+                      ^
+/Users/kexin/Sites/ROR-Site/mySite/sample_app/config/routes.rb:5: syntax error, unexpected ',', expecting end-of-input
+...uccess', to 'checkout#success', as: 'checkout_success'
+...                              ^):
+  
+config/routes.rb:3: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+config/routes.rb:3: syntax error, unexpected ',', expecting end
+config/routes.rb:4: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+config/routes.rb:4: syntax error, unexpected ',', expecting end
+config/routes.rb:5: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+config/routes.rb:5: syntax error, unexpected ',', expecting end-of-input
+config/routes.rb:3: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+config/routes.rb:3: syntax error, unexpected ',', expecting end
+config/routes.rb:4: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+config/routes.rb:4: syntax error, unexpected ',', expecting end
+config/routes.rb:5: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+config/routes.rb:5: syntax error, unexpected ',', expecting end-of-input
+config/routes.rb:3: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+config/routes.rb:3: syntax error, unexpected ',', expecting end
+config/routes.rb:4: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+config/routes.rb:4: syntax error, unexpected ',', expecting end
+config/routes.rb:5: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+config/routes.rb:5: syntax error, unexpected ',', expecting end-of-input
+Started GET "/routes/info" for ::1 at 2020-09-12 10:59:24 -0400
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/routes/info"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/rails/info" for ::1 at 2020-09-12 10:59:34 -0400
+Processing by Rails::InfoController#index as HTML
+Redirected to http://localhost:3000/rails/info/routes
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms | Allocations: 471)
+
+
+Started GET "/rails/info/routes" for ::1 at 2020-09-12 10:59:34 -0400
+Processing by Rails::InfoController#routes as HTML
+  Rendering /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/actionpack-6.0.3.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 3.2ms | Allocations: 899)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 8.0ms | Allocations: 1510)
+Completed 200 OK in 31ms (Views: 23.0ms | ActiveRecord: 0.0ms | Allocations: 2828)
+
+
+Started GET "/rails/info/routes" for ::1 at 2020-09-12 11:00:19 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::InfoController#routes as HTML
+  Rendering /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/kexin/.rvm/gems/ruby-2.6.1/gems/actionpack-6.0.3.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [27 times] (Duration: 18.6ms | Allocations: 3927)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/actionpack-6.0.3.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 0.2ms | Allocations: 121)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 20.7ms | Allocations: 6329)
+Completed 200 OK in 24ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 8133)
+
+
+Started GET "/" for ::1 at 2020-09-12 11:04:26 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.8ms | Allocations: 358)
+Completed 200 OK in 77ms (Views: 61.0ms | ActiveRecord: 0.0ms | Allocations: 2639)
+
+
+Started GET "/" for ::1 at 2020-09-12 11:12:53 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.2ms | Allocations: 56)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 420)
+
+
+Started GET "/" for ::1 at 2020-09-12 11:12:54 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.2ms | Allocations: 56)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 419)
+
+
+Started GET "/" for ::1 at 2020-09-12 11:15:24 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 1.0ms | Allocations: 311)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 1822)
+
+
+Started GET "/" for ::1 at 2020-09-12 11:16:02 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.8ms | Allocations: 272)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 1865)
+
+
+Started GET "/" for ::1 at 2020-09-12 11:16:16 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.6ms | Allocations: 271)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 1856)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:17:13 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"GaUdvbqjNSCnvZuI+1v7zeuoYpB4Pm2QohpmTlIFIrPhG46y6XrWjd6OdRA3yB3dj7ulTGuKlGnZDxO41Y53Vg=="}
+No template found for CheckoutController#create, rendering head :no_content
+Completed 204 No Content in 4ms (ActiveRecord: 0.0ms | Allocations: 1658)
+
+
+Started GET "/" for ::1 at 2020-09-12 11:29:51 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.9ms | Allocations: 312)
+Completed 200 OK in 5ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 1905)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:29:54 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"AIBqAxGUAt+jiGMoXk8HPHDSGhdm+WxsvxnrHY7RJbz4PvkMQk3hctq7jbCS3OEsFMHdy3VNlZXEDJ7rCVpwWQ==", "id"=>"2"}
+No template found for CheckoutController#create, rendering head :no_content
+Completed 204 No Content in 4ms (ActiveRecord: 0.0ms | Allocations: 1620)
+
+
+Started GET "/" for ::1 at 2020-09-12 11:35:04 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.8ms | Allocations: 327)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 1938)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:35:08 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"5rzFDJCPC6CMHIJm3xTwS4aLMauIUqxxTFx9jwIwvNQeAlYDw1boDfUvbP4ThxZb4pj2d5vmVYg3SQh5hbvpMQ==", "id"=>"2"}
+Completed 500 Internal Server Error in 302ms (ActiveRecord: 0.0ms | Allocations: 96535)
+
+
+  
+NameError (undefined local variable or method `product_id' for #<CheckoutController:0x00007f8e8f9bc5b0>
+Did you mean?  @product_id):
+  
+app/controllers/checkout_controller.rb:5:in `create'
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:35:16 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"5rzFDJCPC6CMHIJm3xTwS4aLMauIUqxxTFx9jwIwvNQeAlYDw1boDfUvbP4ThxZb4pj2d5vmVYg3SQh5hbvpMQ==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 624)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:10:in `create'
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:37:05 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"5rzFDJCPC6CMHIJm3xTwS4aLMauIUqxxTFx9jwIwvNQeAlYDw1boDfUvbP4ThxZb4pj2d5vmVYg3SQh5hbvpMQ==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 646)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:10:in `create'
+Started GET "/" for ::1 at 2020-09-12 11:39:18 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.4ms | Allocations: 185)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 793)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:39:19 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"WTtu906y2alUf+2MM/AL24gAmRU6Y7dc6o/AF6l2bjKhhf34HWs6BC1MAxT/Y+3L7BNeySnXTqWRmrXhLv071w==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 643)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:10:in `create'
+Started GET "/" for ::1 at 2020-09-12 11:40:02 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.3ms | Allocations: 185)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 786)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:40:04 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"98eOnC6H3N7yeth4YWl61otXxIW6zAotFUoxRDxUVG4PeR2TfV4/c4tJNuCt+pzG70QDWal489RuX0Syu98Biw==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 655)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:10:in `create'
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:42:37 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"98eOnC6H3N7yeth4YWl61otXxIW6zAotFUoxRDxUVG4PeR2TfV4/c4tJNuCt+pzG70QDWal489RuX0Syu98Biw==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 611)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:10:in `create'
+Started GET "/" for ::1 at 2020-09-12 11:42:40 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 1.1ms | Allocations: 322)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 1928)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:42:41 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"04xv+ysWaxF3hB5dPLZ0sbz1gVcSH9rYUe3G9DkuzbErMvz0eM+IvA638MXwJZKh2OZGiwGrIyEq+LMCvqWYVA==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 650)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:10:in `create'
+Started GET "/" for ::1 at 2020-09-12 11:43:29 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.3ms | Allocations: 185)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 792)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:43:30 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"o3HDmbqr0tuW7ia+T7Y++/Fpc24ShZF7QRfdRv6IokJbz1CW6XIxdu/dyCaDJdjrlXq0sgExaII6AqiweQP3pw==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 657)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:10:in `create'
+Started GET "/" for ::1 at 2020-09-12 11:44:48 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.4ms | Allocations: 185)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 796)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:44:49 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"whp9Xh8SUlLxBBsmHUZhtZb6UAoDEOyPgSkovpcdv2s6pO5RTMux/4g39b7R1Yel8umX1hCkFXb6PF1IEJbqjg==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 644)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:10:in `create'
+Started GET "/" for ::1 at 2020-09-12 11:49:51 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 1.2ms | Allocations: 322)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 1928)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:49:52 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"pv3RpVVBflK6mWNWvC8SjNA50jjdjg+56xI+UYNQ5bJeQ0KqBpid/8Oqjc5wvPSctCoV5M469kCQB0unBNuwVw==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 642)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:10:in `create'
+Started GET "/" for ::1 at 2020-09-12 11:50:32 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 1.2ms | Allocations: 322)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 1926)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:50:34 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"nLzVWBXYylLfGrU8hVlAqS9Z7YLhLUDfPan5p3MJJJlkAkZXRgEp/6YpW6RJyqa5S0oqXvKZuSZGvIxR9IJxfA==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 640)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:10:in `create'
+Started GET "/" for ::1 at 2020-09-12 11:52:37 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.7ms | Allocations: 320)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1916)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:52:39 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"0RJo4D0F3Dh9gC6Ih9anyRp8whHMTq72D+fwcprr1bAprPvvbtw/lQSzwBBLRUHZfm8Fzd/6Vw908oWEHWCAVQ==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 640)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:10:in `create'
+Started GET "/" for ::1 at 2020-09-12 11:53:10 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.7ms | Allocations: 311)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 1910)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:53:11 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"M1Rs92bCGykXCvV7ag1j1lRP7sitGiNbtvBFNFWZm0LL6v/4NRv4hG45G+OmnoXGMFwpFL6u2qLN5TDC0hLOpw==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 644)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:10:in `create'
+Started GET "/" for ::1 at 2020-09-12 11:54:15 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.8ms | Allocations: 320)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 1923)
+
+
+Started GET "/" for ::1 at 2020-09-12 11:54:29 -0400
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 1.9ms | Allocations: 523)
+Completed 200 OK in 12ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 2981)
+
+
+Started GET "/" for ::1 at 2020-09-12 11:54:30 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.4ms | Allocations: 178)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 626)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:54:33 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"LW4ENaGRmamGg/wJ0TSOhYJiMOAqF5gd7m+USDgbM7XV0Jc68kh6BP+wEpEdp2iV5nH3PDmjYeSVeuG+v5BmUA==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 671)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:10:in `create'
+Started GET "/" for ::1 at 2020-09-12 11:56:41 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.3ms | Allocations: 185)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 785)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:56:43 -0400
+  
+NoMethodError (undefined method `respond_to' for CheckoutController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/checkout_controller.rb:2:in `<class:CheckoutController>'
+app/controllers/checkout_controller.rb:1:in `<main>'
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /Users/kexin/Sites/ROR-Site/mySite/sample_app/config/routes.rb:3)
+Started GET "/" for ::1 at 2020-09-12 11:58:00 -0400
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /Users/kexin/Sites/ROR-Site/mySite/sample_app/config/routes.rb:3)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.4ms | Allocations: 185)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 785)
+
+
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /Users/kexin/Sites/ROR-Site/mySite/sample_app/config/routes.rb:3)
+Started GET "/" for ::1 at 2020-09-12 11:58:13 -0400
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 4.7ms | Allocations: 702)
+Completed 200 OK in 16ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 3378)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:58:15 -0400
+  
+NoMethodError (undefined method `respond_to' for CheckoutController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/checkout_controller.rb:2:in `<class:CheckoutController>'
+app/controllers/checkout_controller.rb:1:in `<main>'
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:58:25 -0400
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 6.1. (called from block in <main> at /Users/kexin/Sites/ROR-Site/mySite/sample_app/config/routes.rb:3)
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"q4ViFDs+XSh4rMqSGuYR/GF6bGoM2Z5w9rxu7q1b2zhTO/EbaOe+hQGfJArWdffsBWmrth9tZ4mNqRsYKtCO3Q==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 680)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:11:in `create'
+Started GET "/" for ::1 at 2020-09-12 11:58:29 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.4ms | Allocations: 186)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:58:30 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"9AMi0rena8jWQS6I93Jijhd8t/4Pi8NHV+BO6NVDCDEMvbHd5H6IZa9ywBA74YSec29wIhw/Or4s9TseUshd1A==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 644)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:11:in `create'
+Started GET "/" for ::1 at 2020-09-12 11:59:35 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+NoMethodError (undefined method `respond_to' for ApplicationController:Class
+Did you mean?  respond_to?):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+app/controllers/static_pages_controller.rb:1:in `<main>'
+Started GET "/" for ::1 at 2020-09-12 11:59:40 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.4ms | Allocations: 185)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 790)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 11:59:41 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"tYQ9lWIEFziLuYYwPCTb4q7ABtanR0+T08AhbvD58eZNOq6aMd30lfKKaKjwtz3yytPBCrTztmqo1VSYd3KkAw==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 643)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:11:in `create'
+Started GET "/" for ::1 at 2020-09-12 12:04:48 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.5ms | Allocations: 217)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 1816)
+
+
+Started GET "/checkout/create" for ::1 at 2020-09-12 12:04:49 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/checkout/create"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/rails/info/routes" for ::1 at 2020-09-12 12:07:38 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::InfoController#routes as HTML
+  Rendering /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/kexin/.rvm/gems/ruby-2.6.1/gems/actionpack-6.0.3.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [27 times] (Duration: 5.4ms | Allocations: 3893)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/actionpack-6.0.3.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 0.9ms | Allocations: 704)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 8.9ms | Allocations: 7113)
+Completed 200 OK in 14ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 8885)
+
+
+Started GET "/" for ::1 at 2020-09-12 12:10:36 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.6ms | Allocations: 215)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 1821)
+
+
+Started GET "/checkout/create" for ::1 at 2020-09-12 12:10:38 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/checkout/create"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/rails/info/routes" for ::1 at 2020-09-12 17:27:22 -0400
+  
+SyntaxError (/Users/kexin/Sites/ROR-Site/mySite/sample_app/config/routes.rb:15: syntax error, unexpected end, expecting end-of-input):
+  
+config/routes.rb:15: syntax error, unexpected end, expecting end-of-input
+config/routes.rb:15: syntax error, unexpected end, expecting end-of-input
+config/routes.rb:15: syntax error, unexpected end, expecting end-of-input
+Started GET "/rails/info/routes" for ::1 at 2020-09-12 17:27:51 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::InfoController#routes as HTML
+  Rendering /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/actionpack-6.0.3.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 1.6ms | Allocations: 705)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1085)
+Completed 200 OK in 8ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 2345)
+
+
+Started GET "/rails/info/routes" for ::1 at 2020-09-12 17:28:02 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::InfoController#routes as HTML
+  Rendering /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/kexin/.rvm/gems/ruby-2.6.1/gems/actionpack-6.0.3.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [27 times] (Duration: 10.7ms | Allocations: 3893)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/actionpack-6.0.3.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 1.5ms | Allocations: 121)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 15.7ms | Allocations: 6286)
+Completed 200 OK in 21ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 8230)
+
+
+Started GET "/" for ::1 at 2020-09-12 17:28:12 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.9ms | Allocations: 210)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 1799)
+
+
+Started GET "/checkout/create" for ::1 at 2020-09-12 17:28:14 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/checkout/create"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-09-12 17:30:35 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.4ms | Allocations: 73)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 670)
+
+
+Started GET "/checkout/create" for ::1 at 2020-09-12 17:30:37 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/checkout/create"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/rails/info/routes" for ::1 at 2020-09-12 17:30:57 -0400
+Processing by Rails::InfoController#routes as HTML
+  Rendering /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/kexin/.rvm/gems/ruby-2.6.1/gems/actionpack-6.0.3.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [27 times] (Duration: 7.6ms | Allocations: 3642)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/actionpack-6.0.3.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 0.2ms | Allocations: 121)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 9.3ms | Allocations: 5892)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 6352)
+
+
+Started GET "/rails/info/routes" for ::1 at 2020-09-12 17:30:59 -0400
+Processing by Rails::InfoController#routes as HTML
+  Rendering /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/kexin/.rvm/gems/ruby-2.6.1/gems/actionpack-6.0.3.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [27 times] (Duration: 9.0ms | Allocations: 3642)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/actionpack-6.0.3.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 0.2ms | Allocations: 120)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 10.6ms | Allocations: 5891)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 6343)
+
+
+Started GET "/checkout/create" for ::1 at 2020-09-12 17:32:13 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/checkout/create"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-09-12 17:32:16 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.2ms | Allocations: 73)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 680)
+
+
+Started GET "/checkout/create" for ::1 at 2020-09-12 17:32:19 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/checkout/create"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/rails/info/routes" for ::1 at 2020-09-12 17:33:28 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::InfoController#routes as HTML
+  Rendering /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/kexin/.rvm/gems/ruby-2.6.1/gems/actionpack-6.0.3.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [27 times] (Duration: 4.7ms | Allocations: 3642)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/actionpack-6.0.3.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 0.2ms | Allocations: 120)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 6.1ms | Allocations: 5895)
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 7835)
+
+
+Started GET "/rails/info/routes" for ::1 at 2020-09-12 17:33:36 -0400
+Processing by Rails::InfoController#routes as HTML
+  Rendering /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/kexin/.rvm/gems/ruby-2.6.1/gems/actionpack-6.0.3.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [27 times] (Duration: 4.8ms | Allocations: 3641)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/actionpack-6.0.3.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 0.2ms | Allocations: 120)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 6.5ms | Allocations: 5890)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 6337)
+
+
+Started GET "/" for ::1 at 2020-09-12 17:33:43 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.2ms | Allocations: 73)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 683)
+
+
+Started GET "/checkout/create" for ::1 at 2020-09-12 17:33:45 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/checkout/create"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/rails/info/routes" for ::1 at 2020-09-12 17:39:55 -0400
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::InfoController#routes as HTML
+  Rendering /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/kexin/.rvm/gems/ruby-2.6.1/gems/actionpack-6.0.3.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [27 times] (Duration: 6.4ms | Allocations: 3925)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/actionpack-6.0.3.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 3.3ms | Allocations: 930)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 14.4ms | Allocations: 7508)
+Completed 200 OK in 29ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 9834)
+
+
+Started GET "/checkout/create" for ::1 at 2020-09-12 17:39:59 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/checkout/create"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/checkout/create" for ::1 at 2020-09-12 17:40:02 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/checkout/create"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-09-12 17:42:53 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.8ms | Allocations: 345)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 1998)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 17:42:54 -0400
+  
+ActionController::RoutingError (uninitialized constant CheckoutController
+Did you mean?  CheckoutsController):
+  
+actionpack (6.0.3.2) lib/action_dispatch/http/request.rb:92:in `rescue in controller_class_for'
+actionpack (6.0.3.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.3.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.2) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-09-12 17:43:19 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.3ms | Allocations: 176)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 777)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 17:43:21 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"cHcGNYwrQUrRdlu2cmgUfxV4wKqqF7cWvxSJo3nbv4uIyZU63/Ki56hFtS6++/JvcWsHdrmjTu/EAfxV/lDqbg==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 664)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:10:in `create'
+Started GET "/" for ::1 at 2020-09-12 17:46:15 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 1.0ms | Allocations: 177)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 779)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 17:46:16 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"zgMjqfd6GSnnqcSgoRTweF+fsE67o/9bmd9fQPYwdL82vbCmpKP6hJ6aKjhthxZoO4x3kqgXBqLiyiq2cbshWg==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 653)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:10:in `create'
+Started GET "/" for ::1 at 2020-09-12 17:49:58 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.7ms | Allocations: 311)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 1910)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 17:50:00 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"cK+RgQshJ6E5X6Y8hTVXaeVdRx84j/iXdTwlR2MSwIuIEQKOWPjEDEBsSKRJprF5gU6Awys7AW4OKVCx5JmVbg==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 651)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:10:in `create'
+Started GET "/" for ::1 at 2020-09-12 17:50:16 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.7ms | Allocations: 311)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1916)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 17:50:18 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"spaEdFNoxKkbGXIGvbXaeG3XI4/HxYNsOWSPQDSI+WlKKBd7ALEnBGIqnJ5xJjxoCcTkU9RxepVCcfq2swOsjA==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 649)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:10:in `create'
+Started GET "/" for ::1 at 2020-09-12 17:51:48 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.6ms | Allocations: 278)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1886)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 17:51:50 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"bRsm7ypIXBdW3jDMuM41aMfeYDSTQdjFH3si1yZc83KVpbXgeZG/ui/t3lR0XdN4o82n6ID1ITxkblchodemlw=="}
+Redirected to http://localhost:3000/static_pages/home
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 349)
+
+
+Started GET "/static_pages/home" for ::1 at 2020-09-12 17:51:50 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.3ms | Allocations: 130)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 577)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 17:51:55 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"NNO8T/cmTVZhwsgVgUJuoHWIZ2kjxcUApjf+arp5ESTMbS9ApP+u+xjxJo1N0YiwEZugtTBxPPndIoucPfJEwQ=="}
+Redirected to http://localhost:3000/static_pages/home
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 331)
+
+
+Started GET "/static_pages/home" for ::1 at 2020-09-12 17:51:55 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.3ms | Allocations: 130)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 572)
+
+
+Started GET "/static_pages/home" for ::1 at 2020-09-12 17:52:12 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.7ms | Allocations: 271)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 1862)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 17:52:13 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"KMr/wUs7vZQVqc7dV7obd10V52yf7jm1rCsqaBX3d+LQdGzOGOJeOWyaIEWbKf1nOQYgsIxawEzXPl+eknwiBw=="}
+Redirected to http://localhost:3000/static_pages/home
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 330)
+
+
+Started GET "/static_pages/home" for ::1 at 2020-09-12 17:52:13 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.3ms | Allocations: 130)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 572)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 17:52:14 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"12Mbux/SitEXZnrITzmMzAplNX1W0j5+/zQ4vqT57Csv3Yi0TAtpfG5VlFCDqmrcbnbyoUVmx4eEIU1II3K5zg=="}
+Redirected to http://localhost:3000/static_pages/home
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 333)
+
+
+Started GET "/static_pages/home" for ::1 at 2020-09-12 17:52:14 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.3ms | Allocations: 130)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 571)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 17:52:31 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"JzjcuQeToys4FVZYJTuWFcO7a08eqQTfyI7dObooUsrfhk+2VEpAhkEmuMDpqHAFp6iskw0d/Sazm6jPPaMHLw=="}
+Redirected to http://localhost:3000/static_pages/home
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 336)
+
+
+Started GET "/static_pages/home" for ::1 at 2020-09-12 17:52:31 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.3ms | Allocations: 130)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 574)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 17:52:32 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"aAmlSP5I0p0cFW1flk59iaWiBckKo2QJpt2g4qcVOPuQtzZHrZExMGUmg8da3ZuZwbHCFRkXnfDdyNUUIJ5tHg=="}
+Redirected to http://localhost:3000/static_pages/home
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 332)
+
+
+Started GET "/static_pages/home" for ::1 at 2020-09-12 17:52:32 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.3ms | Allocations: 130)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 579)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 17:52:51 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"i66/EDCG2s9IGHDNFvBazGF/NfEgsJVmOI9Q6knijNdzECwfY185YjErnlXaY7zcBWzyLTMEbJ9DmiUczmnZMg=="}
+Redirected to http://localhost:3000/static_pages/home
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 332)
+
+
+Started GET "/static_pages/home" for ::1 at 2020-09-12 17:52:51 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.7ms | Allocations: 271)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 1865)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 17:52:52 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"pO87FELPnNupCioiNkU05ZDJy2etG7r/vPnayqmGVf5cUagbERZ/dtA5xLr61tL19NoMu76vQwbH7K88Lg0AGw=="}
+Redirected to http://localhost:3000/static_pages/home
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 333)
+
+
+Started GET "/static_pages/home" for ::1 at 2020-09-12 17:52:52 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.3ms | Allocations: 130)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 576)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 17:52:53 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"jtw7/FT6lXOzExvAppm6WP0plJ/R3LMCh6MPIwHF9dt2YqjzByN23sog9VhqClxImTpTQ8JoSvv8tnrVhk6gPg=="}
+Redirected to http://localhost:3000/static_pages/home
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 329)
+
+
+Started GET "/static_pages/home" for ::1 at 2020-09-12 17:52:53 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.3ms | Allocations: 130)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 578)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 17:52:53 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"wftvED9Ceh+gku0l/tUHoyOEuHzhfmG2VpacBE8OzlI5RfwfbJuZstmhA70yRuGzR5d/oPLKmE8tg+nyyIWbtw=="}
+Redirected to http://localhost:3000/static_pages/home
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 334)
+
+
+Started GET "/static_pages/home" for ::1 at 2020-09-12 17:52:53 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.3ms | Allocations: 130)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 572)
+
+
+Started GET "/static_pages/home" for ::1 at 2020-09-12 17:54:05 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.3ms | Allocations: 138)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 744)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 17:54:07 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"ZuWYI7sqpqLxxj9drPLnwWsz08dg4Q1QTR55VsXSrxGeWwss6PNFD4j10cVgYQHRDyAUG3NV9Kk2CwygQln69A=="}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 650)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:10:in `create'
+Started GET "/static_pages/home" for ::1 at 2020-09-12 17:55:24 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.9ms | Allocations: 316)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 1918)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 17:55:28 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"CVSlO42iqXYWI1LCqxK+PHNx2b/tn7FFRVtgd06XH6Hx6jY03ntK228QvFpngVgsF2IeY/4rSLw+ThWByRxKRA==", "id"=>"2"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 649)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:10:in `create'
+Started GET "/" for ::1 at 2020-09-12 19:41:33 -0400
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 2.3ms | Allocations: 492)
+Completed 200 OK in 14ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 2773)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 19:41:36 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"iU23twNMRkDRlGViWICIouV0vvhcnThWcztr9/fooe7PzdYoXCX4Yvz8CqKlVY5RBdbxPSPE+Mjtx6KQjswqtA==", "id"=>"2"}
+Completed 500 Internal Server Error in 3888ms (ActiveRecord: 0.0ms | Allocations: 2074)
+
+
+  
+Stripe::InvalidRequestError (The Checkout Session's total amount due must add up to at least $0.50 usd):
+  
+app/controllers/checkout_controller.rb:11:in `create'
+Started GET "/static_pages/home" for ::1 at 2020-09-12 19:43:10 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.4ms | Allocations: 177)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 779)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 19:43:11 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"sD1X8lzqDgHuTZB8MtA97SaVkDscuy3rq+S9tFAFfs32vTZtA4OwI8Ml/7zPBTsexjff/mPi7XU1GHTTKSH1lw==", "id"=>"2"}
+Completed 406 Not Acceptable in 796ms (ActiveRecord: 0.0ms | Allocations: 2624)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:24:in `create'
+Started POST "/checkout/create" for ::1 at 2020-09-12 19:44:01 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"sD1X8lzqDgHuTZB8MtA97SaVkDscuy3rq+S9tFAFfs32vTZtA4OwI8Ml/7zPBTsexjff/mPi7XU1GHTTKSH1lw==", "id"=>"2"}
+Completed 406 Not Acceptable in 519ms (ActiveRecord: 0.0ms | Allocations: 2473)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:24:in `create'
+Started GET "/static_pages/home" for ::1 at 2020-09-12 19:44:06 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.7ms | Allocations: 311)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 1912)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 19:44:08 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"0nPWZistU7x0GuxgLxTbwO4uXh4O88Q0Pijvi20bVTaU87f5dETtnllyg6DSwd0zDowR23GqBKqg1CbsFD/ebA==", "id"=>"200"}
+Completed 406 Not Acceptable in 392ms (ActiveRecord: 0.0ms | Allocations: 2440)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:24:in `create'
+Started GET "/" for ::1 at 2020-09-12 19:47:18 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.6ms | Allocations: 311)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 1915)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 19:47:19 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"TOXpWgU8B1e44sDcW5d2iWN0xGHxD6tClekAFPdQftAKZYjFWlW5dZWKrxymQnB6g9aLpI5Wa9wLFclzjnT1ig==", "id"=>"200"}
+Completed 406 Not Acceptable in 491ms (ActiveRecord: 0.0ms | Allocations: 2487)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:24:in `create'
+Started GET "/" for ::1 at 2020-09-12 19:48:07 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.9ms | Allocations: 337)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 1946)
+
+
+Started POST "/checkout/create.js" for ::1 at 2020-09-12 19:48:08 -0400
+Processing by CheckoutController#create as JS
+  Parameters: {"authenticity_token"=>"3z/ldouPMAMsmTBDBq8pf4NBl4nvPY1CJ9rzZfp/927GZ5CQDCEgES94idmc3HZ6BG/i6ADpFub7gX6Q28eXzg==", "id"=>"200"}
+  Rendering checkout/create.js.erb
+  Rendered checkout/create.js.erb (Duration: 1.8ms | Allocations: 146)
+Completed 200 OK in 701ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 3688)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 19:49:12 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"0nPWZistU7x0GuxgLxTbwO4uXh4O88Q0Pijvi20bVTaU87f5dETtnllyg6DSwd0zDowR23GqBKqg1CbsFD/ebA==", "id"=>"200"}
+Completed 406 Not Acceptable in 452ms (ActiveRecord: 0.0ms | Allocations: 2433)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:24:in `create'
+Started POST "/checkout/create" for ::1 at 2020-09-12 19:49:15 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"0nPWZistU7x0GuxgLxTbwO4uXh4O88Q0Pijvi20bVTaU87f5dETtnllyg6DSwd0zDowR23GqBKqg1CbsFD/ebA==", "id"=>"200"}
+Completed 406 Not Acceptable in 513ms (ActiveRecord: 0.0ms | Allocations: 2507)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:24:in `create'
+Started GET "/static_pages/home" for ::1 at 2020-09-12 19:49:42 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.8ms | Allocations: 335)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 1935)
+
+
+Started POST "/checkout/create.js" for ::1 at 2020-09-12 19:49:43 -0400
+Processing by CheckoutController#create as JS
+  Parameters: {"authenticity_token"=>"wXtsAv7vydBz4sEtjiDmxfD0+FtCU6toE14qFGD6j+vYIxnkeUHZwnADeLcUU7nAd9qNOq2HMMzPBafhQULvSw==", "id"=>"200"}
+  Rendering checkout/create.js.erb
+  Rendered checkout/create.js.erb (Duration: 0.4ms | Allocations: 141)
+Completed 200 OK in 408ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 3618)
+
+
+Started POST "/checkout/create.js" for ::1 at 2020-09-12 19:50:05 -0400
+Processing by CheckoutController#create as JS
+  Parameters: {"authenticity_token"=>"3z/ldouPMAMsmTBDBq8pf4NBl4nvPY1CJ9rzZfp/927GZ5CQDCEgES94idmc3HZ6BG/i6ADpFub7gX6Q28eXzg==", "id"=>"200"}
+  Rendering checkout/create.js.erb
+  Rendered checkout/create.js.erb (Duration: 0.1ms | Allocations: 12)
+Completed 200 OK in 560ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 2338)
+
+
+Started POST "/checkout/create.js" for ::1 at 2020-09-12 19:51:05 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by CheckoutController#create as JS
+  Parameters: {"authenticity_token"=>"3z/ldouPMAMsmTBDBq8pf4NBl4nvPY1CJ9rzZfp/927GZ5CQDCEgES94idmc3HZ6BG/i6ADpFub7gX6Q28eXzg==", "id"=>"200"}
+  Rendering checkout/create.js.erb
+  Rendered checkout/create.js.erb (Duration: 0.3ms | Allocations: 144)
+Completed 200 OK in 564ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 3653)
+
+
+Started GET "/" for ::1 at 2020-09-12 19:52:12 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.5ms | Allocations: 232)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 1841)
+
+
+Started GET "/%22/checkout/create/%22" for ::1 at 2020-09-12 19:52:21 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/%22/checkout/create/%22"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-09-12 19:52:34 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.5ms | Allocations: 208)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 1809)
+
+
+Started GET "/checkout/create" for ::1 at 2020-09-12 19:52:35 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/checkout/create"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2020-09-12 19:52:51 -0400
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.7ms | Allocations: 311)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 1910)
+
+
+Started POST "/checkout/create" for ::1 at 2020-09-12 19:52:52 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"AqSssxvD7PfmzSxZzs28rj3uHmHGd0P/lxXYW0ilKChEJM0sRKpS1culQ5kzGLpd3UxRpLkug2EJ6RE8MYGjcg==", "id"=>"200"}
+Completed 406 Not Acceptable in 519ms (ActiveRecord: 0.0ms | Allocations: 2463)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:24:in `create'
+Started POST "/checkout/create" for ::1 at 2020-09-12 19:53:46 -0400
+Processing by CheckoutController#create as HTML
+  Parameters: {"authenticity_token"=>"AqSssxvD7PfmzSxZzs28rj3uHmHGd0P/lxXYW0ilKChEJM0sRKpS1culQ5kzGLpd3UxRpLkug2EJ6RE8MYGjcg==", "id"=>"200"}
+Completed 406 Not Acceptable in 477ms (ActiveRecord: 0.0ms | Allocations: 2510)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/checkout_controller.rb:24:in `create'
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20200913143455)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[36mprimary::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200913143455"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateProducts (20200913143525)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "products" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "stripe_plan_name" varchar, "paypal_plan_name" varchar)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "products" ADD "price_cents" integer DEFAULT 0 NOT NULL[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "products" ADD "price_currency" varchar DEFAULT 'USD' NOT NULL[0m
+  [1m[36mprimary::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200913143525"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateOrders (20200913151158)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "orders" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "product_id" integer, "user_id" integer, "status" integer, "token" varchar, "charge_id" varchar, "error_message" varchar, "customer_id" varchar, "payment_gateway" integer, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "orders" ADD "price_cents" integer DEFAULT 0 NOT NULL[0m
+  [1m[36mprimary::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200913151158"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-09-13 11:28:20 -0400
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 7.6ms | Allocations: 481)
+Completed 200 OK in 61ms (Views: 39.5ms | ActiveRecord: 0.0ms | Allocations: 3187)
+
+
+Started GET "/" for ::1 at 2020-09-13 11:30:35 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 1941)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-09-13 11:30:35 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/shared/_links.html.erb (Duration: 3.3ms | Allocations: 645)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb (Duration: 49.0ms | Allocations: 3967)
+Completed 200 OK in 121ms (Views: 95.3ms | ActiveRecord: 0.7ms | Allocations: 13551)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-09-13 11:30:40 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/registrations/new.html.erb
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/shared/_error_messages.html.erb (Duration: 1.1ms | Allocations: 213)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 125)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/registrations/new.html.erb (Duration: 5.0ms | Allocations: 1994)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 3494)
+
+
+Started POST "/users" for ::1 at 2020-09-13 11:30:51 -0400
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"TjCWgT6X86rY3ifJHTi7eKXSQeI4XqXfvu/9/rxT8aIA2ve7aFg6QY9OH+92fLdSos1qNTxgxcYY0M0xZHN2fg==", "user"=>{"email"=>"xu9449@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "xu9449@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "xu9449@gmail.com"], ["encrypted_password", "$2a$12$mhGXIIjyRVZ3DmVxs0j8U.53Vp0V34i3RyzkGf0vb/dN4vFewqMY."], ["created_at", "2020-09-13 15:30:51.464610"], ["updated_at", "2020-09-13 15:30:51.464610"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 332ms (ActiveRecord: 2.1ms | Allocations: 10474)
+
+
+Started GET "/" for ::1 at 2020-09-13 11:30:51 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.6ms | Allocations: 332)
+Completed 200 OK in 5ms (Views: 2.0ms | ActiveRecord: 0.2ms | Allocations: 3013)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("name", "price_cents") VALUES (?, ?)[0m  [["name", "Awesome T-Shirt"], ["price_cents", 3000]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mProduct Create (0.5ms)[0m  [1m[32mINSERT INTO "products" ("name", "price_cents") VALUES (?, ?)[0m  [["name", "Awesome Sneakers"], ["price_cents", 5000]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for ::1 at 2020-09-13 11:38:05 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."stripe_plan_name" IS NULL AND "products"."paypal_plan_name" IS NULL[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  Rendering orders/index.html.haml
+  Rendered orders/index.html.haml (Duration: 44.6ms | Allocations: 16806)
+Completed 200 OK in 84ms (Views: 49.7ms | ActiveRecord: 1.8ms | Allocations: 35097)
+
+
+Started GET "/" for ::1 at 2020-09-13 21:31:39 -0400
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by OrdersController#index as HTML
+Completed 401 Unauthorized in 44ms (ActiveRecord: 0.0ms | Allocations: 3800)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-09-13 21:31:39 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 649)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb (Duration: 11.1ms | Allocations: 3084)
+Completed 200 OK in 42ms (Views: 32.9ms | ActiveRecord: 0.6ms | Allocations: 12768)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-09-13 21:31:42 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VT0yfsXj3Jkbk+G08JDVimRRQGgEvDTQAuoEXa1hgseyHLHhJV1HEmA+HXvKaZNdJa2IPe7FO9m8aAqcX0rsAA==", "user"=>{"email"=>"xu9449@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "xu9449@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Update (0.3ms)[0m  [1m[33mUPDATE "users" SET "remember_created_at" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["remember_created_at", "2020-09-14 01:31:43.265995"], ["updated_at", "2020-09-14 01:31:43.266315"], ["id", 1]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 320ms (ActiveRecord: 2.6ms | Allocations: 10911)
+
+
+Started GET "/" for ::1 at 2020-09-13 21:31:43 -0400
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."stripe_plan_name" IS NULL AND "products"."paypal_plan_name" IS NULL[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  Rendering orders/index.html.haml
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/stripe-rails-1.10.1/app/views/stripe/_js.html.erb (Duration: 1.4ms | Allocations: 1252)
+  Rendered orders/index.html.haml (Duration: 12.4ms | Allocations: 18313)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 1.2ms | Allocations: 28104)
+
+
+  
+ActionView::Template::Error (No stripe.com publishable key found. Please set config.stripe.publishable_key in config/application.rb to one of your publishable keys, which can be found here: https://manage.stripe.com/#account/apikeys):
+    12: <%- when 'v3' # the debug js for v3 isn't available %>
+    13:   <script type="text/javascript" src="https://js.stripe.com/<%=stripe_js_version%>/"></script>
+    14:   <script type="text/javascript">
+    15:     var stripe = Stripe("<%= Rails.application.config.stripe.publishable_key or fail 'No stripe.com publishable key found. Please set config.stripe.publishable_key in config/application.rb to one of your publishable keys, which can be found here: https://manage.stripe.com/#account/apikeys' %>");
+    16:   </script>
+    17: <%- end %>
+  
+app/views/orders/index.html.haml:1
+Started GET "/users/sign_in" for ::1 at 2020-09-13 21:33:32 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 17ms (ActiveRecord: 0.9ms | Allocations: 10170)
+
+
+Started GET "/" for ::1 at 2020-09-13 21:33:33 -0400
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."stripe_plan_name" IS NULL AND "products"."paypal_plan_name" IS NULL[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  Rendering orders/index.html.haml
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/stripe-rails-1.10.1/app/views/stripe/_js.html.erb (Duration: 1.5ms | Allocations: 1547)
+  Rendered orders/index.html.haml (Duration: 13.5ms | Allocations: 18720)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 1.0ms | Allocations: 30103)
+
+
+  
+ActionView::Template::Error (No stripe.com publishable key found. Please set config.stripe.publishable_key in config/application.rb to one of your publishable keys, which can be found here: https://manage.stripe.com/#account/apikeys):
+    12: <%- when 'v3' # the debug js for v3 isn't available %>
+    13:   <script type="text/javascript" src="https://js.stripe.com/<%=stripe_js_version%>/"></script>
+    14:   <script type="text/javascript">
+    15:     var stripe = Stripe("<%= Rails.application.config.stripe.publishable_key or fail 'No stripe.com publishable key found. Please set config.stripe.publishable_key in config/application.rb to one of your publishable keys, which can be found here: https://manage.stripe.com/#account/apikeys' %>");
+    16:   </script>
+    17: <%- end %>
+  
+app/views/orders/index.html.haml:1
+Started GET "/" for ::1 at 2020-09-13 21:33:37 -0400
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."stripe_plan_name" IS NULL AND "products"."paypal_plan_name" IS NULL[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  Rendering orders/index.html.haml
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/stripe-rails-1.10.1/app/views/stripe/_js.html.erb (Duration: 0.4ms | Allocations: 1070)
+  Rendered orders/index.html.haml (Duration: 0.6ms | Allocations: 1158)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.4ms | Allocations: 4405)
+
+
+  
+ActionView::Template::Error (No stripe.com publishable key found. Please set config.stripe.publishable_key in config/application.rb to one of your publishable keys, which can be found here: https://manage.stripe.com/#account/apikeys):
+    12: <%- when 'v3' # the debug js for v3 isn't available %>
+    13:   <script type="text/javascript" src="https://js.stripe.com/<%=stripe_js_version%>/"></script>
+    14:   <script type="text/javascript">
+    15:     var stripe = Stripe("<%= Rails.application.config.stripe.publishable_key or fail 'No stripe.com publishable key found. Please set config.stripe.publishable_key in config/application.rb to one of your publishable keys, which can be found here: https://manage.stripe.com/#account/apikeys' %>");
+    16:   </script>
+    17: <%- end %>
+  
+app/views/orders/index.html.haml:1
+Started GET "/" for ::1 at 2020-09-13 21:33:45 -0400
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."stripe_plan_name" IS NULL AND "products"."paypal_plan_name" IS NULL[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  Rendering orders/index.html.haml
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/stripe-rails-1.10.1/app/views/stripe/_js.html.erb (Duration: 0.4ms | Allocations: 1070)
+  Rendered orders/index.html.haml (Duration: 0.7ms | Allocations: 1157)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.5ms | Allocations: 4403)
+
+
+  
+ActionView::Template::Error (No stripe.com publishable key found. Please set config.stripe.publishable_key in config/application.rb to one of your publishable keys, which can be found here: https://manage.stripe.com/#account/apikeys):
+    12: <%- when 'v3' # the debug js for v3 isn't available %>
+    13:   <script type="text/javascript" src="https://js.stripe.com/<%=stripe_js_version%>/"></script>
+    14:   <script type="text/javascript">
+    15:     var stripe = Stripe("<%= Rails.application.config.stripe.publishable_key or fail 'No stripe.com publishable key found. Please set config.stripe.publishable_key in config/application.rb to one of your publishable keys, which can be found here: https://manage.stripe.com/#account/apikeys' %>");
+    16:   </script>
+    17: <%- end %>
+  
+app/views/orders/index.html.haml:1
+Started GET "/" for ::1 at 2020-09-13 21:33:56 -0400
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."stripe_plan_name" IS NULL AND "products"."paypal_plan_name" IS NULL[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  Rendering orders/index.html.haml
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/stripe-rails-1.10.1/app/views/stripe/_js.html.erb (Duration: 0.8ms | Allocations: 1238)
+  Rendered orders/index.html.haml (Duration: 9.7ms | Allocations: 16796)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.4ms | Allocations: 21765)
+
+
+  
+ActionView::Template::Error (No stripe.com publishable key found. Please set config.stripe.publishable_key in config/application.rb to one of your publishable keys, which can be found here: https://manage.stripe.com/#account/apikeys):
+    12: <%- when 'v3' # the debug js for v3 isn't available %>
+    13:   <script type="text/javascript" src="https://js.stripe.com/<%=stripe_js_version%>/"></script>
+    14:   <script type="text/javascript">
+    15:     var stripe = Stripe("<%= Rails.application.config.stripe.publishable_key or fail 'No stripe.com publishable key found. Please set config.stripe.publishable_key in config/application.rb to one of your publishable keys, which can be found here: https://manage.stripe.com/#account/apikeys' %>");
+    16:   </script>
+    17: <%- end %>
+  
+app/views/orders/index.html.haml:1
+Started GET "/" for ::1 at 2020-09-13 21:34:15 -0400
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."stripe_plan_name" IS NULL AND "products"."paypal_plan_name" IS NULL[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  Rendering orders/index.html.haml
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/stripe-rails-1.10.1/app/views/stripe/_js.html.erb (Duration: 0.7ms | Allocations: 1238)
+  Rendered orders/index.html.haml (Duration: 10.7ms | Allocations: 19060)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.3ms | Allocations: 24048)
+
+
+  
+ActionView::Template::Error (No stripe.com publishable key found. Please set config.stripe.publishable_key in config/application.rb to one of your publishable keys, which can be found here: https://manage.stripe.com/#account/apikeys):
+    12: <%- when 'v3' # the debug js for v3 isn't available %>
+    13:   <script type="text/javascript" src="https://js.stripe.com/<%=stripe_js_version%>/"></script>
+    14:   <script type="text/javascript">
+    15:     var stripe = Stripe("<%= Rails.application.config.stripe.publishable_key or fail 'No stripe.com publishable key found. Please set config.stripe.publishable_key in config/application.rb to one of your publishable keys, which can be found here: https://manage.stripe.com/#account/apikeys' %>");
+    16:   </script>
+    17: <%- end %>
+  
+app/views/orders/index.html.haml:1
+Started GET "/" for ::1 at 2020-09-13 21:34:59 -0400
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."stripe_plan_name" IS NULL AND "products"."paypal_plan_name" IS NULL[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  Rendering orders/index.html.haml
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/stripe-rails-1.10.1/app/views/stripe/_js.html.erb (Duration: 0.7ms | Allocations: 1238)
+  Rendered orders/index.html.haml (Duration: 9.7ms | Allocations: 18257)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.4ms | Allocations: 23226)
+
+
+  
+ActionView::Template::Error (No stripe.com publishable key found. Please set config.stripe.publishable_key in config/application.rb to one of your publishable keys, which can be found here: https://manage.stripe.com/#account/apikeys):
+    12: <%- when 'v3' # the debug js for v3 isn't available %>
+    13:   <script type="text/javascript" src="https://js.stripe.com/<%=stripe_js_version%>/"></script>
+    14:   <script type="text/javascript">
+    15:     var stripe = Stripe("<%= Rails.application.config.stripe.publishable_key or fail 'No stripe.com publishable key found. Please set config.stripe.publishable_key in config/application.rb to one of your publishable keys, which can be found here: https://manage.stripe.com/#account/apikeys' %>");
+    16:   </script>
+    17: <%- end %>
+  
+app/views/orders/index.html.haml:1
+Started GET "/" for ::1 at 2020-09-13 21:35:10 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."stripe_plan_name" IS NULL AND "products"."paypal_plan_name" IS NULL[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  Rendering orders/index.html.haml
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/stripe-rails-1.10.1/app/views/stripe/_js.html.erb (Duration: 1.6ms | Allocations: 1547)
+  Rendered orders/index.html.haml (Duration: 14.1ms | Allocations: 20195)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 1.6ms | Allocations: 38648)
+
+
+  
+ActionView::Template::Error (No stripe.com publishable key found. Please set config.stripe.publishable_key in config/application.rb to one of your publishable keys, which can be found here: https://manage.stripe.com/#account/apikeys):
+    12: <%- when 'v3' # the debug js for v3 isn't available %>
+    13:   <script type="text/javascript" src="https://js.stripe.com/<%=stripe_js_version%>/"></script>
+    14:   <script type="text/javascript">
+    15:     var stripe = Stripe("<%= Rails.application.config.stripe.publishable_key or fail 'No stripe.com publishable key found. Please set config.stripe.publishable_key in config/application.rb to one of your publishable keys, which can be found here: https://manage.stripe.com/#account/apikeys' %>");
+    16:   </script>
+    17: <%- end %>
+  
+app/views/orders/index.html.haml:1
+Started GET "/" for ::1 at 2020-09-13 21:36:22 -0400
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."stripe_plan_name" IS NULL AND "products"."paypal_plan_name" IS NULL[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  Rendering orders/index.html.haml
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/stripe-rails-1.10.1/app/views/stripe/_js.html.erb (Duration: 0.4ms | Allocations: 1070)
+  Rendered orders/index.html.haml (Duration: 0.7ms | Allocations: 1158)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.4ms | Allocations: 4405)
+
+
+  
+ActionView::Template::Error (No stripe.com publishable key found. Please set config.stripe.publishable_key in config/application.rb to one of your publishable keys, which can be found here: https://manage.stripe.com/#account/apikeys):
+    12: <%- when 'v3' # the debug js for v3 isn't available %>
+    13:   <script type="text/javascript" src="https://js.stripe.com/<%=stripe_js_version%>/"></script>
+    14:   <script type="text/javascript">
+    15:     var stripe = Stripe("<%= Rails.application.config.stripe.publishable_key or fail 'No stripe.com publishable key found. Please set config.stripe.publishable_key in config/application.rb to one of your publishable keys, which can be found here: https://manage.stripe.com/#account/apikeys' %>");
+    16:   </script>
+    17: <%- end %>
+  
+app/views/orders/index.html.haml:1
+Started GET "/" for ::1 at 2020-09-14 21:17:44 -0400
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by OrdersController#index as HTML
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms | Allocations: 3833)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-09-14 21:17:44 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendering /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 649)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb (Duration: 12.3ms | Allocations: 3084)
+Completed 200 OK in 32ms (Views: 21.5ms | ActiveRecord: 0.6ms | Allocations: 12806)
+
+
+Started POST "/users/sign_in" for ::1 at 2020-09-14 21:17:46 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"STb5h2mEKQGCYfxz0r0nLygLT6FjgBp1uf3Hgk/zxSDKf4ALoBod3V8FSEH9GgtQ9s6Xk4n91S2h2mp+EUBeZw==", "user"=>{"email"=>"xuxuxu@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "xuxuxu@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 5ms (ActiveRecord: 0.6ms | Allocations: 2528)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"STb5h2mEKQGCYfxz0r0nLygLT6FjgBp1uf3Hgk/zxSDKf4ALoBod3V8FSEH9GgtQ9s6Xk4n91S2h2mp+EUBeZw==", "user"=>{"email"=>"xuxuxu@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 136)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/sessions/new.html.erb (Duration: 1.3ms | Allocations: 1097)
+Completed 200 OK in 214ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 2231)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-09-14 21:18:01 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/registrations/new.html.erb
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/shared/_error_messages.html.erb (Duration: 0.9ms | Allocations: 213)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/shared/_links.html.erb (Duration: 0.3ms | Allocations: 125)
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/devise-4.7.2/app/views/devise/registrations/new.html.erb (Duration: 4.5ms | Allocations: 1996)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 3673)
+
+
+Started POST "/users" for ::1 at 2020-09-14 21:18:11 -0400
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"X+VrbaDUylVSutJ+aXAwwUv8hZfY8xhw2JxLvSXcj7rIbuCzLHZtzQr4aSmPOTxr5PcEPbbuo8MeCjt6rHs1dg==", "user"=>{"email"=>"xxx@gamil.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "xxx@gamil.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (2.0ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "xxx@gamil.com"], ["encrypted_password", "$2a$12$P8/DwiTMpye2AH7Do35nHuTfVb93YHX3YDFvSQ/Knfr4jzRnXJ57y"], ["created_at", "2020-09-15 01:18:11.804080"], ["updated_at", "2020-09-15 01:18:11.804080"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 229ms (ActiveRecord: 2.8ms | Allocations: 11414)
+
+
+Started GET "/" for ::1 at 2020-09-14 21:18:11 -0400
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."stripe_plan_name" IS NULL AND "products"."paypal_plan_name" IS NULL[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  Rendering orders/index.html.haml
+  Rendered /Users/kexin/.rvm/gems/ruby-2.6.1/gems/stripe-rails-1.10.1/app/views/stripe/_js.html.erb (Duration: 1.0ms | Allocations: 311)
+  Rendered orders/index.html.haml (Duration: 513.0ms | Allocations: 220662)
+Completed 500 Internal Server Error in 532ms (ActiveRecord: 1.4ms | Allocations: 231406)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `paypal_create_payment_url' for #<#<Class:0x00007f8d3a71ba50>:0x00007f8d3a71a0d8>):
+    117:       createOrder: function() {
+    118:         $('#order-type').val("paypal");
+    119:         if (isPayment()) {
+    120:           return $.post("#{paypal_create_payment_url}", $('#order-details').serialize()).then(function(data) {
+    121:             return data.token;
+    122:           });
+    123:         } else {
+  
+app/views/orders/index.html.haml:120
+Started GET "/users/sign_up" for ::1 at 2020-09-14 21:19:22 -0400
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.1ms | Allocations: 1961)
+
+
+Started GET "/" for ::1 at 2020-09-14 21:19:22 -0400
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."stripe_plan_name" IS NULL AND "products"."paypal_plan_name" IS NULL[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  Rendering orders/index.html.haml
+  Rendered orders/index.html.haml (Duration: 1.1ms | Allocations: 1373)
+Completed 200 OK in 8ms (Views: 4.3ms | ActiveRecord: 0.3ms | Allocations: 6392)
+
+
+Started GET "/" for ::1 at 2020-09-14 21:19:25 -0400
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products" WHERE "products"."stripe_plan_name" IS NULL AND "products"."paypal_plan_name" IS NULL[0m
+  ↳ app/controllers/orders_controller.rb:6:in `index'
+  Rendering orders/index.html.haml
+  Rendered orders/index.html.haml (Duration: 0.1ms | Allocations: 14)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.3ms | Allocations: 3312)
+
+
+Started GET "/" for ::1 at 2020-09-14 21:20:09 -0400
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 402.7ms | Allocations: 200917)
+Completed 500 Internal Server Error in 428ms (ActiveRecord: 0.7ms | Allocations: 212646)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `checkout_create_path' for #<#<Class:0x00007fcd5ca0cae0>:0x00007fcd594db128>):
+     8:   <body>
+     9:     <h1>StaticPages#home</h1>
+    10:     <p>Find me in app/views/static_pages/home.html.erb</p>
+    11:     <%= button_to 'buy now', checkout_create_path, method: :post, params: {id: 200}%>
+    12:   </body>
+    13: </html>
+  
+app/views/static_pages/home.html.erb:11
+Started GET "/" for ::1 at 2020-09-14 21:20:58 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 505.0ms | Allocations: 200026)
+Completed 500 Internal Server Error in 520ms (ActiveRecord: 0.7ms | Allocations: 210173)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `checkout_create_path' for #<#<Class:0x00007fcd65908be0>:0x00007fcd65913298>):
+     8:   <body>
+     9:     <h1>StaticPages#home</h1>
+    10:     <p>Find me in app/views/static_pages/home.html.erb</p>
+    11:     <%= button_to 'buy now', checkout_create_path, method: :post, params: {id: 200}%>
+    12:   </body>
+    13: </html>
+  
+app/views/static_pages/home.html.erb:11
+Started GET "/" for ::1 at 2020-09-14 21:21:12 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb
+  Rendered static_pages/home.html.erb (Duration: 0.4ms | Allocations: 129)
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 0.2ms | Allocations: 3908)
+
+
+Started GET "/" for ::1 at 2020-09-14 21:59:52 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 128)
+Completed 500 Internal Server Error in 200ms (ActiveRecord: 0.2ms | Allocations: 110797)
+
+
+  
+ActionView::Template::Error (undefined method `stylesheets_link_tag' for #<#<Class:0x00007fcd5cb71070>:0x00007fcd5cb7b728>
+Did you mean?  stylesheet_link_tag
+               stylesheet_pack_tag):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheets_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11: 
+    12:   </head>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2020-09-14 22:00:06 -0400
+Processing by StaticPagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 128)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: c4dc2f4740bf3ca92721
+Version: webpack 4.44.1
+Time: 685ms
+Built at: 09/14/2020 10:00:09 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c7252027028a362c0676.js   7.44 KiB  application  [emitted] [immutable]  application
+js/application-c7252027028a362c0676.js.map   3.53 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-c7252027028a362c0676.js js/application-c7252027028a362c0676.js.map
+[./app/javascript/packs/application.js] 3.54 KiB {application} [built] [failed] [1 error]
+
+ERROR in ./app/javascript/packs/application.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /Users/kexin/Sites/ROR-Site/mySite/sample_app/app/javascript/packs/application.js: Unexpected token, expected ";" (10:8)
+
+   8 | require("@rails/activestorage").start()
+   9 | require("channels")
+> 10 | require jquery
+     |         ^
+  11 | 
+  12 | 
+  13 | // Uncomment to copy all static images under ../images to the output folder and reference
+    at Parser._raise (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/@babel/parser/lib/index.js:766:17)
+    at Parser.raiseWithData (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/@babel/parser/lib/index.js:759:17)
+    at Parser.raise (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/@babel/parser/lib/index.js:753:17)
+    at Parser.unexpected (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/@babel/parser/lib/index.js:8966:16)
+    at Parser.semicolon (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/@babel/parser/lib/index.js:8948:40)
+    at Parser.parseExpressionStatement (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/@babel/parser/lib/index.js:11971:10)
+    at Parser.parseStatementContent (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/@babel/parser/lib/index.js:11567:19)
+    at Parser.parseStatement (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/@babel/parser/lib/index.js:11431:17)
+    at Parser.parseBlockOrModuleBlockBody (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/@babel/parser/lib/index.js:12013:25)
+    at Parser.parseBlockBody (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/@babel/parser/lib/index.js:11999:10)
+    at Parser.parseTopLevel (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/@babel/parser/lib/index.js:11362:10)
+    at Parser.parse (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/@babel/parser/lib/index.js:13045:10)
+    at parse (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/@babel/parser/lib/index.js:13098:38)
+    at parser (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/@babel/core/lib/parser/index.js:54:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/@babel/core/lib/transformation/normalize-file.js:99:38)
+    at normalizeFile.next (<anonymous>)
+    at run (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/@babel/core/lib/transformation/index.js:31:50)
+    at run.next (<anonymous>)
+    at Function.transform (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/@babel/core/lib/transform.js:27:41)
+    at transform.next (<anonymous>)
+    at step (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/gensync/index.js:254:32)
+    at /Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/gensync/index.js:266:13
+    at async.call.result.err.err (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/gensync/index.js:216:11)
+    at /Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/gensync/index.js:184:28
+    at /Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/@babel/core/lib/gensync-utils/async.js:72:7
+    at /Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/gensync/index.js:108:33
+    at step (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/gensync/index.js:280:14)
+    at /Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/gensync/index.js:266:13
+    at async.call.result.err.err (/Users/kexin/Sites/ROR-Site/mySite/sample_app/node_modules/gensync/index.js:216:11)
+
+Completed 200 OK in 3431ms (Views: 3428.0ms | ActiveRecord: 0.1ms | Allocations: 29948)
+
+
